@@ -1,0 +1,10 @@
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.AssemblyReference.cache
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.dll
+C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.pdb

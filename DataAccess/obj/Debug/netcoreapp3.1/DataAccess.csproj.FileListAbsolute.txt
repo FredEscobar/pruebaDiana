@@ -1,0 +1,16 @@
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Courses\MVC\Biblioteca\Biblioteca\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
