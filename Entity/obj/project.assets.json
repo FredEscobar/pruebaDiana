@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\DianaVelásquez\\.nuget\\packages\\": {}
+    "C:\\Users\\Freddy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj",
-      "packagesPath": "C:\\Users\\DianaVelásquez\\.nuget\\packages\\",
-      "outputPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\obj\\",
+      "projectPath": "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj",
+      "packagesPath": "C:\\Users\\Freddy\\.nuget\\packages\\",
+      "outputPath": "C:\\Diana\\Repo\\library-loan\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DianaVelásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Freddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

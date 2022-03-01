@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Library.Models.Student>
 
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <p>
     <a asp-action="Create">Nuevo</a>
 </p>
@@ -11,6 +11,15 @@
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Career)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -19,7 +28,16 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelITem=> item.Name)
+                    @Html.DisplayFor(modelITem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelITem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelITem => item.Career)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelITem => item.Age)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
@@ -28,7 +46,7 @@
                     <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
                 </td>
             </tr>
-        }          
-    
+        }
+
     </tbody>
 </table>

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Entity
 {
@@ -8,6 +6,10 @@ namespace Entity
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string Address { get; set; }
+        public string Career { get; set; }
+        public int Age { get; set; }
+        public ICollection<BookRequest> BookRequests { get; set; }
 
     }
 }

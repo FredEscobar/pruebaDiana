@@ -8,3 +8,12 @@ C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.Assem
 C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
 C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.dll
 C:\Courses\MVC\Biblioteca\Biblioteca\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
+C:\Diana\Repo\library-loan\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+C:\Diana\Repo\library-loan\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Diana\Repo\library-loan\Entity\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Diana\Repo\library-loan\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+C:\Diana\Repo\library-loan\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+C:\Diana\Repo\library-loan\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+C:\Diana\Repo\library-loan\Entity\obj\Debug\netcoreapp3.1\Entity.dll
+C:\Diana\Repo\library-loan\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
+C:\Diana\Repo\library-loan\Entity\obj\Debug\netcoreapp3.1\Entity.csprojAssemblyReference.cache

@@ -1,0 +1,30 @@
+﻿@model Library.Models.BookRequest
+
+<h4>Students</h4>
+<div>
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div>
+            <label asp-for="RequestDate"></label>
+            <input asp-for="RequestDate" />
+            <span asp-validation-for="RequestDate"></span>
+        </div>
+        <div>
+            <label class="control-label"> Select Student</label>
+            <select asp name="StudentId" class="form-control" asp-for="StudentId" asp-items="@ViewBag.Students"></select>
+
+        </div>
+        <div>
+            <label class="control-label"> Select Book</label>
+            <select name="BookId" class="form-control" asp-for="BookId" asp-items="@ViewBag.Books"></select>
+
+        </div>
+
+        <div>
+            <input type="submit" value="Grabar" />
+        </div>
+    </form>
+</div>
+<div>
+    <a asp-action="Index">Volver</a>
+</div>

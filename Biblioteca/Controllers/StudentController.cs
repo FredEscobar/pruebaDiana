@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections;
+﻿using Library.Models;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Library.Models;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace Library.Controllers
 {
-    public class StudentController : Controller 
+    public class StudentController : Controller
     {
         public async Task<IActionResult> Index()
         {
@@ -24,7 +21,7 @@ namespace Library.Controllers
                     students = JsonConvert.DeserializeObject<List<Student>>(apiResponse);
                 }
             }
-            return View(students);            
+            return View(students);
         }
 
         public async Task<IActionResult> Edit(int? id)
@@ -39,23 +36,23 @@ namespace Library.Controllers
                     student = JsonConvert.DeserializeObject<Student>(apiResponse);
                 }
             }
-            if(student == null) return NotFound();
+            if (student == null) return NotFound();
             return View(student);
 
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(int? id,Student student)
+        public async Task<IActionResult> Edit(int? id, Student student)
         {
-            var jsonStudent = JsonConvert.SerializeObject(student);            
+            var jsonStudent = JsonConvert.SerializeObject(student);
             var content = new StringContent(jsonStudent, Encoding.UTF8, "application/json");
             using (var httpClient = new HttpClient())
             {
                 using (var response = await httpClient.PutAsync("http://localhost:5001/api/student/" + id, content))
-                {                  
+                {
                     if (response.IsSuccessStatusCode)
                     {
                         return RedirectToAction(nameof(Index));
-                    }                   
+                    }
                 }
             }
             return View(student);
@@ -75,8 +72,8 @@ namespace Library.Controllers
                         string apiResponse = await response.Content.ReadAsStringAsync();
                         student = JsonConvert.DeserializeObject<Student>(apiResponse);
                     }
-                    
-                
+
+
                 }
             }
             if (student == null) return NotFound();
@@ -85,7 +82,7 @@ namespace Library.Controllers
         }
         [HttpPost]
         public async Task<IActionResult> Delete(int id)
-        {            
+        {
             using (var httpClient = new HttpClient())
             {
                 using (var response = await httpClient.DeleteAsync("http://localhost:5001/api/student/" + id))
@@ -111,7 +108,7 @@ namespace Library.Controllers
             using (var httpClient = new HttpClient())
             {
                 using (var response = await httpClient.PostAsync("http://localhost:5001/api/student", content))
-                {                    
+                {
                     if (response.IsSuccessStatusCode)
                     {
                         return RedirectToAction(nameof(Index));

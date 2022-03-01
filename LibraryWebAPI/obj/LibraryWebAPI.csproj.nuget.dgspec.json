@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\LibraryWebAPI\\LibraryWebAPI.csproj": {}
+    "C:\\Diana\\Repo\\library-loan\\LibraryWebAPI\\LibraryWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Diana\\Repo\\library-loan\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Diana\\Repo\\library-loan\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\DianaVelásquez\\.nuget\\packages\\",
-        "outputPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Diana\\Repo\\library-loan\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Freddy\\.nuget\\packages\\",
+        "outputPath": "C:\\Diana\\Repo\\library-loan\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DianaVelásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Freddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\DataAccess.csproj"
+              "C:\\Diana\\Repo\\library-loan\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Diana\\Repo\\library-loan\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj"
+              "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj"
               }
             }
           }
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\DataAccess.csproj": {
+    "C:\\Diana\\Repo\\library-loan\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Diana\\Repo\\library-loan\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\DianaVelásquez\\.nuget\\packages\\",
-        "outputPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\obj\\",
+        "projectPath": "C:\\Diana\\Repo\\library-loan\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Freddy\\.nuget\\packages\\",
+        "outputPath": "C:\\Diana\\Repo\\library-loan\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DianaVelásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Freddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj"
+              "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj"
               }
             }
           }
@@ -135,21 +135,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj": {
+    "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\DianaVelásquez\\.nuget\\packages\\",
-        "outputPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\Entity\\obj\\",
+        "projectPath": "C:\\Diana\\Repo\\library-loan\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Freddy\\.nuget\\packages\\",
+        "outputPath": "C:\\Diana\\Repo\\library-loan\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DianaVelásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Freddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,21 +189,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\LibraryWebAPI\\LibraryWebAPI.csproj": {
+    "C:\\Diana\\Repo\\library-loan\\LibraryWebAPI\\LibraryWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\LibraryWebAPI\\LibraryWebAPI.csproj",
+        "projectUniqueName": "C:\\Diana\\Repo\\library-loan\\LibraryWebAPI\\LibraryWebAPI.csproj",
         "projectName": "LibraryWebAPI",
-        "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\LibraryWebAPI\\LibraryWebAPI.csproj",
-        "packagesPath": "C:\\Users\\DianaVelásquez\\.nuget\\packages\\",
-        "outputPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\LibraryWebAPI\\obj\\",
+        "projectPath": "C:\\Diana\\Repo\\library-loan\\LibraryWebAPI\\LibraryWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Freddy\\.nuget\\packages\\",
+        "outputPath": "C:\\Diana\\Repo\\library-loan\\LibraryWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DianaVelásquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Freddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,11 +217,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Diana\\Repo\\library-loan\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Diana\\Repo\\library-loan\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Courses\\MVC\\Biblioteca\\Biblioteca\\DataAccess\\DataAccess.csproj"
+              "C:\\Diana\\Repo\\library-loan\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Diana\\Repo\\library-loan\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -236,6 +236,20 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -259,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

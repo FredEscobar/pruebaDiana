@@ -13,3 +13,17 @@ C:\Courses\MVC\Biblioteca\Biblioteca\BusinessLogic\obj\Debug\netcoreapp3.1\Busin
 C:\Courses\MVC\Biblioteca\Biblioteca\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.pdb
 C:\Courses\MVC\Biblioteca\Biblioteca\BusinessLogic\bin\Debug\netcoreapp3.1\DataAccess.dll
 C:\Courses\MVC\Biblioteca\Biblioteca\BusinessLogic\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Diana\Repo\library-loan\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.deps.json
+C:\Diana\Repo\library-loan\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\Diana\Repo\library-loan\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\Diana\Repo\library-loan\BusinessLogic\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Diana\Repo\library-loan\BusinessLogic\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Diana\Repo\library-loan\BusinessLogic\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Diana\Repo\library-loan\BusinessLogic\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Diana\Repo\library-loan\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csprojAssemblyReference.cache
+C:\Diana\Repo\library-loan\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfoInputs.cache
+C:\Diana\Repo\library-loan\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfo.cs
+C:\Diana\Repo\library-loan\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Diana\Repo\library-loan\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CopyComplete
+C:\Diana\Repo\library-loan\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\Diana\Repo\library-loan\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.pdb
