@@ -5,7 +5,7 @@
 <p>
     <a asp-action="Create">Nuevo</a>
 </p>
-<table>
+<table class="table">
     <thead>
         <tr>
             <th>
@@ -24,29 +24,31 @@
     </thead>
     <tbody>
         @*Aqui colocaremos mas adelante para mostrar los registros de la base de datos*@
-        @foreach (var item in Model)
+        @if (Model != null)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelITem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelITem => item.Address)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelITem => item.Career)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelITem => item.Age)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                </td>
-                <td>
-                    <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-                </td>
-            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelITem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelITem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelITem => item.Career)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelITem => item.Age)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
         }
-
     </tbody>
 </table>

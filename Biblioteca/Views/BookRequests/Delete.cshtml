@@ -1,29 +1,11 @@
 ﻿@model Library.Models.BookRequest
 
 <h3>Esta usted seguro de eliminar el siguiente registro?</h3>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id">
+    <input class="btn btn-primary" type="submit" value="Eliminar">
+</form>
 <div>
-    <dl>
-        <dt>
-            @Html.DisplayNameFor(modelo => modelo.BookName)
-        </dt>
-        <dd>
-            @Html.DisplayFor(modelo => modelo.StudentName)
-        </dd>
-        <dd>
-            @Html.DisplayFor(modelo => modelo.RequestDate)
-        </dd>
-        <dd>
-            @Html.DisplayFor(modelo => modelo.ReturnDate)
-        </dd>
-        <dd>
-            @Html.DisplayFor(modelo => modelo.IsBookReturned)
-        </dd>
-    </dl>
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id">
-        <input type="submit" value="Eliminar">
-    </form>
-    <div>
-        <a asp-action="Index">Volver</a>
-    </div>
+    <a asp-action="Index">Volver</a>
 </div>

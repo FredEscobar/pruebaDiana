@@ -131,8 +131,22 @@ namespace LibraryWebAPI.Controllers
 
         // DELETE api/<BookRequestsController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id, [FromBody] BookRequestDto bookRequestDto)
         {
+            if (id != bookRequestDto.Id) return NotFound();
+            var model = new BookRequest
+            {
+                BookId = bookRequestDto.BookId,
+                IsBookReturned = bookRequestDto.IsBookReturned,
+                StudentId = bookRequestDto.StudentId,
+                ReturnDate = bookRequestDto.ReturnDate,
+                RequestDate = bookRequestDto.RequestDate
+            };
+
+            context.Remove(model);
+            context.SaveChanges();
+
+            return Ok();
         }
     }
 }

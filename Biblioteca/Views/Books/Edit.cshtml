@@ -8,22 +8,22 @@
         <div asp-validation-summary="ModelOnly"></div>
         <input type="hidden" asp-for="Id">
         <div>
-            <label asp-for="Name"></label>
-            <input asp-for="Name" />
+            <label class="form-label" asp-for="Name"></label>
+            <input class="form-control" asp-for="Name" />
             <span asp-validation-for="Name"></span>
         </div>
         <div>
-            <label asp-for="Publisher"></label>
-            <input asp-for="Publisher" />
+            <label class="form-label" asp-for="Publisher"></label>
+            <input class="form-control" asp-for="Publisher" />
             <span asp-validation-for="Publisher"></span>
         </div>
         <div>
-            <label asp-for="Area"></label>
-            <input asp-for="Area" />
+            <label class="form-label" asp-for="Area"></label>
+            <input class="form-control" asp-for="Area" />
             <span asp-validation-for="Area"></span>
         </div>
         <div>
-            <input type="submit" value="Grabar">
+            <input class="btn btn-primary" type="submit" value="Grabar">
         </div>
     </form>
 </div>

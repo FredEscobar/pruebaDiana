@@ -76,12 +76,6 @@ namespace LibraryWebAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var book = libraryContext.Book.SingleOrDefault(s => s.Id == id);
-            if (book == null) return NotFound();
-
-            libraryContext.Remove(book);
-            libraryContext.SaveChanges();
-
             return Ok();
         }
     }

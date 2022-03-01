@@ -101,7 +101,7 @@ namespace Library.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Student student)
+        public async Task<IActionResult> Create(Student student)
         {
             var jsonStudent = JsonConvert.SerializeObject(student);
             var content = new StringContent(jsonStudent, Encoding.UTF8, "application/json");

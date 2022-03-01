@@ -32,6 +32,59 @@ namespace DataAccess
             modelBuilder.Entity<BookRequest>()
                 .HasOne(br => br.Student)
                 .WithMany(br => br.BookRequests).HasForeignKey(br => br.StudentId);
+
+
+            modelBuilder.Entity<Author>().HasData(
+                new Author
+                {
+                    Id = 1,
+                    Name = "Stephen King",
+                    Nationality = "USA"
+                },
+                new Author
+                {
+                    Id = 2,
+                    Name = "JK Rowling",
+                    Nationality = "FRANCIA"
+                },
+                new Author
+                {
+                    Id = 3,
+                    Name = "JR Tolkien",
+                    Nationality = "USA"
+                },
+                new Author
+                {
+                    Id = 4,
+                    Name = "Ruben Dario",
+                    Nationality = "NICARAGUA"
+                },
+                new Author
+                {
+                    Id = 5,
+                    Name = "Emilio Santamaria",
+                    Nationality = "ARGENTINA"
+                },
+                new Author
+                {
+                    Id = 6,
+                    Name = "Benedetti, Mario",
+                    Nationality = "FRANCIA"
+                },
+                new Author
+                {
+                    Id = 7,
+                    Name = "David Vitter",
+                    Nationality = "COSTA RICA"
+                },
+                new Author
+                {
+                    Id = 8,
+                    Name = "Julian Templeman",
+                    Nationality = "HONDURAS"
+                }
+
+            );
         }
 
         public DbSet<Student> Student { get; set; }
